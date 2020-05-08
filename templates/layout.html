@@ -7,6 +7,9 @@
 		<h1>Welcome!</h1>
 	</header>
 	<body>
+		<h2>{% block heading %}{% endblock %}</h2>
 		<p>Some text, a paragraph of text</p>
+		{% block body %}
+		{% endblock %}
 	</body>
 </html>
