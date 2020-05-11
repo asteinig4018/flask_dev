@@ -1,2 +1,5 @@
-firefox-69.0.tar.bz2
+templates/style.css
+templates/style.css.map
 __pycache__/
+firefox-69*
+templates/.sass-cache/
