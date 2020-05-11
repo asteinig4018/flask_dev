@@ -1,5 +1,5 @@
-templates/style.css
-templates/style.css.map
+static/css/style.css
+static/css/style.css.map
 __pycache__/
 firefox-69*
-templates/.sass-cache/
+static/css/.sass-cache/

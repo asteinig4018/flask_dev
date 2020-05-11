@@ -1,0 +1,16 @@
+$color1: red;
+$varpad1: 2.5%;
+
+body{
+    padding: $varpad1;
+    //margin: $varpad1;
+}
+
+header{
+    text-align: center;
+}
+
+ul {
+    font-size: 14px;
+    color: $color1;
+}
