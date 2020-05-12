@@ -13,13 +13,17 @@ Just a simple quarantine project to learn a little web dev and to act as a refer
 
 It might be useful to use multiple terminal windows or something like tmux since multiple programs will be running.
 
-* Source the setup file to export the necessary environment variables (edit the Display variable if necessary. I'm using wsl and xming).
+### Setup
+
+Source the setup file to export the necessary environment variables (edit the Display variable if necessary. I'm using wsl and xming).
 
 ```
 . setup.sh
 ```
 
-* To have sass watch the scss file 
+### Sass
+
+To have sass watch the scss file 
 
 ```
 sass --watch style.scss:style.css
@@ -33,7 +37,9 @@ sass --watch static/css/style.css:static/css/style.css &
 
 to run from the top directory and in the background.
 
-* To run flask, use 
+### Flask
+
+To run flask, use 
 
 ```
 flask run
