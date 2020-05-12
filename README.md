@@ -1,6 +1,7 @@
 # Flask Dev Project
 
 Just a simple quarantine project to learn a little web dev and to act as a reference for future projects using these technologies.
+Allows a user to create notes with or without sections.
 
 ## Tech used
 
