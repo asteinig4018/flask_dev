@@ -3,3 +3,4 @@ static/css/style.css.map
 __pycache__/
 firefox-69*
 static/css/.sass-cache/
+.sass-cache/
