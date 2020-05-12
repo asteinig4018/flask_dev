@@ -7,6 +7,7 @@ Just a simple quarantine project to learn a little web dev and to act as a refer
 * Flask 1.1.2
 * Python 3.6
 * Ruby Sass 3.7.2
+* Jinja 2.11.2
 
 
 ## Use
