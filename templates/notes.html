@@ -22,15 +22,21 @@
     
     <p>new notes go here</p>
 
-    <form action="{{ url_for('notes') }}" method="POST">
-        <input type="text" name="note" placeholder="Enter your note">
-        <input name="section" placeholder="section" list="sections">
-        <datalist id="sections">
-            {% for section in sections %}
-                <option value="{{ section }}">
-            {% endfor %}
-        </datalist>
-        <button>Submit</button>
+    <form action="{{ url_for('notes') }}" method="POST" class="form-group">
+        <div>
+            <input type="text" name="note" placeholder="Enter your note">
+        </div>
+        <div>
+            <input name="section" placeholder="section" list="sections">
+            <datalist id="sections">
+                {% for section in sections %}
+                    <option value="{{ section }}">
+                {% endfor %}
+            </datalist>
+        </div>
+        <div class="basic_padding">
+            <button type="button" class="btn btn-lg btn-info">Submit</button>
+        </div>
     </form> 
     
     <a href="{{ url_for('index') }}">Return home</a>
